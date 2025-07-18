@@ -1,0 +1,35 @@
+.navbar {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Gradient from pink to purple */
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.logo {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  border-radius: 50%; /* Make it round */
+  margin-right: 15px; /* Space between logo and brand name */
+}
+
+.navbar-brand {
+  font-family: 'Miguales', sans-serif; /* Apply Miguales font */
+  font-size: 1.5rem; /* Adjust font size as needed */
+  color: white; /* Text color */
+}
+
+.nav-link {
+  color: white; /* Text color for links */
+}
+
+.gradient-button {
+  background-color: rgb(0, 255, 102); /* Same gradient for buttons */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners for buttons */
+  padding: 10px 20px; /* Padding for buttons */
+  color: white; /* Text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.gradient-button:hover {
+  opacity: 0.8; /* Slightly change opacity on hover */
+}
